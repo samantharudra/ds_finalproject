@@ -1,0 +1,11 @@
+To do list:
+
+create repository 
+
+load data
+
+clean data 
+
+scraping 
+
+clustering
