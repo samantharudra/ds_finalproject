@@ -1,0 +1,22 @@
+To do list:
+
+create repository 
+
+load data
+
+clean data 
+- district level
+- fast facts, virtual/not, PSSA test scores
+- PSSA test scores: mean by district, one row per district, average scores in 2019 and 2022 for English and Math 
+- Fast Facts needs to be combined with internet access
+- Virtual or not need to get row per district 
+
+scraping (tbd)
+- interactive map https://experience.arcgis.com/experience/7cafb0b5d9444eb18d0873c8afaafb86/
+
+clustering - school district 
+- district fast facts
+- interactive map 
+
+statistical analysis by cluster 
+- test scores as a function of how long virtual
