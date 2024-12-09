@@ -1,0 +1,65 @@
+---
+title: "Spatial matching"
+output: html_document
+author: Sara Murley
+
+---
+
+## Preparation
+```{r setup, include=TRUE, message = FALSE, warning = FALSE}
+# Load packages used in this session of R
+library(tidyverse)
+library(knitr)
+library(readxl) # Package to read Excel data
+library(MatchIt)
+```
+
+```{r}
+data = read.csv(file = "../data/cleaned data/merged_data.csv")
+data = drop_na(data)
+```
+
+```{r}
+data = data %>% 
+  mutate(treatment = as.numeric(In_Person > median(In_Person)))
+```
+
+```{r}
+matchit_result <- MatchIt::matchit(
+  treatment ~ NumberofSchools +
+    DistrictEnrollment +
+    PercentofGiftedStudents +
+    CharterSchoolEnrollment +
+    GeographicSizeofDistrict +
+    AmericanIndian_AlaskanNative +
+    Asian +
+    NativeHawaiianorotherPacificIslander +
+    Black +
+    Hispanic +
+    White +
+    TwoOrMoreRaces +
+    EconomicallyDisadvantaged +
+    EnglishLearner +
+    SpecialEducation +
+    Female +
+    Male +
+    Homeless +
+    MilitaryConnected +
+    perc_unconnected_students +
+    Latitude +
+    Longitude,
+  data = data,
+  method = "nearest"
+)
+```
+
+```{r}
+matched_data = MatchIt::get_matches(matchit_result)
+```
+
+```{r}
+write.csv(matched_data, "../data/cleaned data/matched_data_fromR.csv")
+```
+
+
+
