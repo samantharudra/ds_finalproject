@@ -1,10 +1,5 @@
 # Assessing the Impact of Pandemic Learning Model In Pennsylvania Educational Outcomes Using Spatial Matching
 
-## Authors
-Mena Tetali, Sara Murley, Samantha Rudravajhala 
-
-_McCourt School of Public Policy, Georgetown University_
-
 ## Description
 This study examines whether Pennsylvania school districts with similar characteristics but different COVID-19 policies, specifically if they offered in person instruction during the 2020-2021 school year, experienced different educational outcomes in the subsequent year. Using district-level data, we matched districts with comparable characteristics that differed in their degree of in-person instruction and analyzed standardized test scores before and after the pandemic. 
 
@@ -40,3 +35,8 @@ Our presentation is a brief overview of our project presented in class on 12/10/
 Our paper cohesively synthesizes the information presented in our repository for easy dissemination and understanding.
 
 ## Figures
+
+## Authors
+Mena Tetali, Sara Murley, Samantha Rudravajhala 
+
+_McCourt School of Public Policy, Georgetown University_
