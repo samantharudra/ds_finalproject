@@ -1,0 +1,42 @@
+---
+title: "Spatial matching"
+output: html_document
+author: Sara Murley
+
+---
+
+## Preparation
+```{r setup, include=TRUE, message = FALSE, warning = FALSE}
+# Load packages used in this session of R
+library(tidyverse)
+library(knitr)
+```
+
+```{r}
+data = read.csv(file = "../data/cleaned data/merged_data.csv")
+data = drop_na(data)
+```
+
+```{r}
+df["english_diff"] = df["mean_proficient_english_2022"] - df["mean_proficient_english_2019"]
+df["math_diff"] = df["mean_proficient_math_2022"] - df["mean_proficient_math_2019"]
+```
+
+```{r}
+data = data %>% 
+  mutate(english_diff = mean_proficient_english_2022 - mean_proficient_english_2019, 
+         math_diff = mean_proficient_math_2022 - mean_proficient_math_2019, 
+         treatment = as.numeric(In_Person > median(In_Person)))
+```
+
+
+
+```{r}
+summary(lm(english_diff ~ treatment + NumberofSchools + DistrictEnrollment + PercentofGiftedStudents + CharterSchoolEnrollment + GeographicSizeofDistrict + AmericanIndian_AlaskanNative + Asian + NativeHawaiianorotherPacificIslander + Black + Hispanic + White + TwoOrMoreRaces + EconomicallyDisadvantaged + EnglishLearner + SpecialEducation + Female + Male + Homeless + MilitaryConnected + perc_unconnected_students + Latitude + Longitude, data = data))
+```
+
+```{r}
+summary(lm(math_diff ~ treatment + NumberofSchools + DistrictEnrollment + PercentofGiftedStudents + CharterSchoolEnrollment + GeographicSizeofDistrict + AmericanIndian_AlaskanNative + Asian + NativeHawaiianorotherPacificIslander + Black + Hispanic + White + TwoOrMoreRaces + EconomicallyDisadvantaged + EnglishLearner + SpecialEducation + Female + Male + Homeless + MilitaryConnected + perc_unconnected_students + Latitude + Longitude, data = data))
+```
+
+
