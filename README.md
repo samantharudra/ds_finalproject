@@ -27,6 +27,20 @@ Cleaned data includes:
 
 ## Code
 
+Data Cleaning: 
+- PA_District_Learning_Model_Code.ipynb: 
+- pssa_cleaning.ipynb: 
+- standardization.ipynb: merges district characteristic data with internet access data, scales numerical features. 
+- merging_data: combines all datasets
+
+Analysis: 
+- descriptive stats: creates table of descriptive stats across whole dataset
+- clustering.ipynb: performs clustering analysis on the final dataset (not  included in final analysis)
+- spatial_matching.ipynb: performs matching and difference of means test using KNN method in Python. 
+- spatial_matching_v2.ipynb: performs difference of means test using matching data exported from R. 
+- regression.Rmd: OLS model 
+- matching.Rmd: uses MatchIt library to create matched pairs dataset 
+
 
 ## Presentation
 Our presentation is a brief overview of our project presented in class on 12/10/24. We include information about our motivation, data collection, methods, results, lessons learned, and next steps.

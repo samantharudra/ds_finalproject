@@ -54,8 +54,22 @@ matchit_result <- MatchIt::matchit(
 ```
 
 ```{r}
+print(matchit_result)
+```
+```{r}
+plot(summary(matchit_result))
+```
+
+```{r}
+plot(matchit_result, type = "ecdf")
+```
+
+```{r}
 matched_data = MatchIt::get_matches(matchit_result)
 ```
+
+
+
 
 ```{r}
 write.csv(matched_data, "../data/cleaned data/matched_data_fromR.csv")
