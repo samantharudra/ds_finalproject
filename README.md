@@ -3,7 +3,7 @@
 ## Authors
 Mena Tetali, Sara Murley, Samantha Rudravajhala 
 
-McCourt School of Public Policy, Georgetown University
+_McCourt School of Public Policy, Georgetown University_
 
 ## Description
 This study examines whether Pennsylvania school districts with similar characteristics but different COVID-19 policies, specifically if they offered in person instruction during the 2020-2021 school year, experienced different educational outcomes in the subsequent year. Using district-level data, we matched districts with comparable characteristics that differed in their degree of in-person instruction and analyzed standardized test scores before and after the pandemic. 
