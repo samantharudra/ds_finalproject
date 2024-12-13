@@ -49,6 +49,22 @@ Our presentation is a brief overview of our project presented in class on 12/10/
 Our paper cohesively synthesizes the information presented in our repository for easy dissemination and understanding.
 
 ## Figures
+- conf_intervals.png
+- jeanette_oswayo.png
+- jeannette_bigbeaver.png
+- jeannette_bigbeaver_highlighted.png
+- jeannette_oswayo_highlighted.png
+- matched_pairs_highlighted_map.html
+- matched_pairs_highlighted_map_large.html
+- matched_pairs_map.html
+- matched_pairs_map.png
+- penncrest_baldeagle.png
+- penncrest_baldeagle_highlighted.png
+- penncrest_bristol_highlighted.png
+- penncrest_bristol_map.png
+- results.png
+- riverview_oldforge.png
+- riverview_oldforge_map.png
 
 ## Authors
 Mena Tetali, Sara Murley, Samantha Rudravajhala 
