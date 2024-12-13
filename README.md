@@ -1,7 +1,7 @@
 # The Impact of Pandemic Learning Models In Pennsylvania: Assessing  Educational Outcomes Using Matching
 
 ## Description
-As the education system grapples with the side effects of the Covid-19 Pandemic, we question if similar school districts with different covid-19 policy choices have had different educational outcomes in the year following. We first analyzed district level data in the Commonwealth of Pennsylvania, looking at how long districts were in-person during the 2020-2021 school year. Using spatial matching to create pairs of similar districts based on demographics but with different Covid policies, we then examined their test scores from before and after the pandemic.
+As the education system grapples with the side effects of the COVID-19 pandemic, we question if similar school districts with different COVID-19 policy choices have had different educational outcomes in the year following. We first analyzed district-level data in the Commonwealth of Pennsylvania, looking at how long districts were in-person during the 2020-2021 school year. Using spatial matching to create pairs of similar districts based on demographics but with different COVID-19 policies, we then examined their test scores from before and after the pandemic.
 
 ## Proposal
 The proposal has our topic idea, background, intended methodology, potential data sources, and explanation of what success means to us. While working on our project, elements of our proposal shifted. We updated our research question and methodology after thorough research and learning about our initial plan's limitations.
@@ -14,7 +14,7 @@ Raw data includes:
 - 2022 pssa school level data.xlsx: Test scores for Pennsylvania state exam in 2022 at the school level
 - DistrictFastFacts_20232024.xlsx: Demographic information for Pennsylvania districts
 - DistrictMap.csv: Percent of unconnected students by district
-- Pennsylvania_Districts_LearningModelData_Final.csv: Whether Pennsylvania districts were in person, virtual, or hybrid for 2020-2021 school year
+- Pennsylvania_Districts_LearningModelData_Final.csv: Whether Pennsylvania districts were in-person, virtual, or hybrid for 2020-2021 school year
 - SchoolFastFacts_20232024.xlsx: Demographic information for Pennsylvania schools
 
 Cleaned data includes:
