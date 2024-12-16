@@ -17,10 +17,6 @@ data = read.csv(file = "../data/cleaned data/merged_data.csv")
 data = drop_na(data)
 ```
 
-```{r}
-df["english_diff"] = df["mean_proficient_english_2022"] - df["mean_proficient_english_2019"]
-df["math_diff"] = df["mean_proficient_math_2022"] - df["mean_proficient_math_2019"]
-```
 
 ```{r}
 data = data %>% 
