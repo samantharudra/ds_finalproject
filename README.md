@@ -71,7 +71,7 @@ Analysis:
 ## Presentation
 Our presentation is a brief overview of our project presented in class on 12/10/24. We include information about our motivation, data collection, methods, results, lessons learned, and next steps.
 
-## Paper
+## Report
 Our paper cohesively synthesizes the information presented in our repository for easy dissemination and understanding.
 
 ## Figures
