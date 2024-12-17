@@ -65,7 +65,7 @@ Analysis:
     - matched_pairs_highlighted_map_large.html
 - regression.Rmd: OLS model
   - Input: merged_data.csv
-  - Output:
+  - Output: regression output in Appendix of final paper
  
 
 ## Presentation
