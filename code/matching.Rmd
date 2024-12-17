@@ -56,13 +56,20 @@ matchit_result <- MatchIt::matchit(
 ```{r}
 print(matchit_result)
 ```
+
 ```{r}
-plot(summary(matchit_result))
+sum = summary(matchit_result)
+sum$sum.matched
 ```
 
 ```{r}
-plot(matchit_result, type = "ecdf")
+# Generate the SMD plot and save it as a PNG
+png("../figures/matching_smd_plot.png") # Adjust dimensions and resolution for high quality
+plot(summary(matchit_result)) # Create the plot
+dev.off() # Close the graphics device
+
 ```
+
 
 ```{r}
 matched_data = MatchIt::get_matches(matchit_result)
